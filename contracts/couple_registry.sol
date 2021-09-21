@@ -5,7 +5,6 @@ import "./interfaces/IERC721.sol";
 import "./interfaces/rarity_interfaces.sol";
 import "./interfaces/rarity_structs.sol";
 
-// Contract of each fight
 contract couple_registry {
 
     rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
